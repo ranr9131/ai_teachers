@@ -1,0 +1,1802 @@
+{
+    "\"Can you explain how to add a negative number and a positive number\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.486153846153854,
+        "readability_index_score": 4.634615384615387,
+        "dependency_distance_score": 2.466666666666667,
+        "formality_score": 0.9986695051193237
+    },
+    "What manipulatives besides a number line can I use?\" -": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.70000000000002,
+        "readability_index_score": 5.050000000000001,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9921835064888
+    },
+    "\"Create real world math problems within 100 that uses this concept\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 87.99727272727276,
+        "readability_index_score": 7.620000000000001,
+        "dependency_distance_score": 2.3846153846153846,
+        "formality_score": 0.9984449744224548
+    },
+    "Add in multi-step word problems": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 102.045,
+        "readability_index_score": 1.9800000000000004,
+        "dependency_distance_score": 1.8571428571428572,
+        "formality_score": 0.3058415651321411
+    },
+    "real word examples using numbers within 20": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.7871428571429,
+        "readability_index_score": 6.2928571428571445,
+        "dependency_distance_score": 1.0,
+        "formality_score": 0.0039593917317688465
+    },
+    "what are key words my students should know for this?": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.625,
+        "readability_index_score": 3.3520000000000003,
+        "dependency_distance_score": 2.090909090909091,
+        "formality_score": 0.005476458463817835
+    },
+    "my student doesn't understand how a positive and a negative number added can still be negative. can you help me explain?": {
+        "prompt_length_score": 21,
+        "first_order_coherence_score": 0.8514114022254944,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.23464285714289,
+        "readability_index_score": 5.127142857142857,
+        "dependency_distance_score": 2.611111111111111,
+        "formality_score": 0.9985736608505249
+    },
+    "\"'What are examples of oracular statements from anciet Delphi?\" ": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.70000000000002,
+        "readability_index_score": 9.760000000000002,
+        "dependency_distance_score": 2.4615384615384617,
+        "formality_score": 0.9986629486083984
+    },
+    "\"What are less famous examples?": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 83.32000000000004,
+        "readability_index_score": 4.620000000000001,
+        "dependency_distance_score": 1.7142857142857142,
+        "formality_score": 0.9633848667144775
+    },
+    "What are direct quotes from oracular statements from ancient Delphi?\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.78500000000001,
+        "readability_index_score": 10.887999999999998,
+        "dependency_distance_score": 2.5833333333333335,
+        "formality_score": 0.9986728429794312
+    },
+    "\"create a situation that involves a real world scenario for a student to put data into a table and then find a pattern and write a rule for that pattern to figure out what would happen\",": {
+        "prompt_length_score": 36,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 62.195000000000036,
+        "readability_index_score": 15.93333333333333,
+        "dependency_distance_score": 3.1538461538461537,
+        "formality_score": 0.9986730813980103
+    },
+    "\"make the pattern more complex and do not put it in a table put it in text and do not give me the answer\", ": {
+        "prompt_length_score": 24,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 87.30000000000003,
+        "readability_index_score": 6.270000000000003,
+        "dependency_distance_score": 3.4444444444444446,
+        "formality_score": 0.998612642288208
+    },
+    "\"make the pattern the result of dividing the independent variable by the same amount every time\"": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.69500000000001,
+        "readability_index_score": 9.825624999999999,
+        "dependency_distance_score": 2.9444444444444446,
+        "formality_score": 0.9986735582351685
+    },
+    "\"Here are some coordinate pairs (7, 56), (6, 48), and (3, 24). make a word problem out of this.\", ": {
+        "prompt_length_score": 19,
+        "first_order_coherence_score": 0.6729428172111511,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 99.23460526315789,
+        "readability_index_score": -1.062631578947368,
+        "dependency_distance_score": 4.12,
+        "formality_score": 0.9986006617546082
+    },
+    "\"Here are some coordinate pairs (5, 15), (18, 80), and (16, 70). make a word problem out of this.\",": {
+        "prompt_length_score": 19,
+        "first_order_coherence_score": 0.6886650919914246,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 99.23460526315789,
+        "readability_index_score": -0.5668421052631594,
+        "dependency_distance_score": 4.12,
+        "formality_score": 0.998484194278717
+    },
+    "\"make a word problem based on the expression 5x-10\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.50000000000003,
+        "readability_index_score": 4.526666666666667,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9985353946685791
+    },
+    "\"can you give me a puzzle where I have to find the next thing in a visual pattern?\",": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 94.565,
+        "readability_index_score": 4.055,
+        "dependency_distance_score": 4.045454545454546,
+        "formality_score": 0.9986490607261658
+    },
+    " \"give me an in-out table where the input is not a number but the output is a number\", ": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 85.01500000000003,
+        "readability_index_score": 3.8774999999999977,
+        "dependency_distance_score": 3.125,
+        "formality_score": 0.9984033703804016
+    },
+    "\"make it a little more complicated\",": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 87.94500000000002,
+        "readability_index_score": 3.5500000000000007,
+        "dependency_distance_score": 2.888888888888889,
+        "formality_score": 0.8978463411331177
+    },
+    "\"make the input not words\", ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 100.24000000000002,
+        "readability_index_score": -0.08999999999999986,
+        "dependency_distance_score": 2.5,
+        "formality_score": 0.9863365888595581
+    },
+    "\"make it less complicated\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.87500000000001,
+        "readability_index_score": 5.297499999999999,
+        "dependency_distance_score": 1.8333333333333333,
+        "formality_score": 0.6381769776344299
+    },
+    "\"How would you explain how to find an expression for an in-out table\", ": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 89.89642857142859,
+        "readability_index_score": 3.7371428571428567,
+        "dependency_distance_score": 3.3333333333333335,
+        "formality_score": 0.9986768364906311
+    },
+    "\"what is the simplest explanation for finding a gcf?\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.50000000000003,
+        "readability_index_score": 5.050000000000001,
+        "dependency_distance_score": 2.5833333333333335,
+        "formality_score": 0.9956070780754089
+    },
+    "\"simplest step by step process for finding a gcf?\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 94.30000000000001,
+        "readability_index_score": 3.4800000000000004,
+        "dependency_distance_score": 2.6666666666666665,
+        "formality_score": 0.9817171096801758
+    },
+    "\"Describe standards by which a \"great American novel\" is determined\" ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 52.86500000000001,
+        "readability_index_score": 9.475000000000001,
+        "dependency_distance_score": 3.4285714285714284,
+        "formality_score": 0.9986767172813416
+    },
+    "\"Describe novels comtemporary to Adventures of Huckleberry Finn that reflect similar social and cultural issues.\"  ": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 31.97,
+        "readability_index_score": 15.124375,
+        "dependency_distance_score": 3.263157894736842,
+        "formality_score": 0.9986346364021301
+    },
+    "\"Describe novels comtemporary to The Great Gatsby that reflect similar social and cultural issues.\" ": {
+        "prompt_length_score": 14,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 41.553571428571445,
+        "readability_index_score": 13.493571428571428,
+        "dependency_distance_score": 3.3529411764705883,
+        "formality_score": 0.9986353516578674
+    },
+    "\"Describe essays, pamphlets, and books contemporary to The Great Gatsby that could inform a student's understanding of ther Jazz Age and/or class stratification in the United States in the early 20th century.\"": {
+        "prompt_length_score": 32,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 44.81125000000003,
+        "readability_index_score": 19.739062499999996,
+        "dependency_distance_score": 3.973684210526316,
+        "formality_score": 0.9986298084259033
+    },
+    "Discuss how Thorstein Veblen's Theory of the American Leisure Class illuminates social mores shown in the Great Gatsby\"": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.965,
+        "readability_index_score": 13.475000000000001,
+        "dependency_distance_score": 3.6,
+        "formality_score": 0.9986273050308228
+    },
+    "\"make 10 multiple choice questions for chapter 7 for the story mi proprio auto\" ": {
+        "prompt_length_score": 14,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.93928571428573,
+        "readability_index_score": 7.1014285714285705,
+        "dependency_distance_score": 3.1875,
+        "formality_score": 0.9891097545623779
+    },
+    "\"make 10 multiple choice questions using the subjunctive for the story mi proprio auto with an answer key\"": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.76500000000001,
+        "readability_index_score": 10.334999999999997,
+        "dependency_distance_score": 3.25,
+        "formality_score": 0.9964642524719238
+    },
+    "\"write 17 day lesson plan for unidad 2 for santillana 2 with 90 minute periods, include differentiated instructions\"": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 47.565,
+        "readability_index_score": 12.689999999999998,
+        "dependency_distance_score": 3.5714285714285716,
+        "formality_score": 0.998646080493927
+    },
+    "\"make a spanish rap for the verb tener\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.965,
+        "readability_index_score": 0.2325000000000017,
+        "dependency_distance_score": 2.1,
+        "formality_score": 0.8906601667404175
+    },
+    "\"align the episodes for the BBA spanish language learning series \"mi vida loca\" with the thematic units for santillana 2 textbook series\"": {
+        "prompt_length_score": 22,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 65.29590909090909,
+        "readability_index_score": 13.548181818181817,
+        "dependency_distance_score": 2.8461538461538463,
+        "formality_score": 0.9983988404273987
+    },
+    "\"create a 5 question quiz for 3rd grade on the topic of forces and motion\"": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 84.45000000000003,
+        "readability_index_score": 4.282,
+        "dependency_distance_score": 2.7058823529411766,
+        "formality_score": 0.9982126951217651
+    },
+    "\"short worksheet on identifying the parts of speech\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 82.39000000000001,
+        "readability_index_score": 7.88625,
+        "dependency_distance_score": 1.7,
+        "formality_score": 0.9983267188072205
+    },
+    "\"create a 3rd grade worksheet on the properties of multiplication\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 44.405,
+        "readability_index_score": 9.475000000000001,
+        "dependency_distance_score": 2.25,
+        "formality_score": 0.9935886859893799
+    },
+    "\"Create a map workshet for the 7 continents for 3rd grade\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 72.61545454545457,
+        "readability_index_score": 3.7663636363636357,
+        "dependency_distance_score": 2.4615384615384617,
+        "formality_score": 0.9966397285461426
+    },
+    "\"What is the author's purpose for the story Yoon and the Jade Bracelet?\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 89.51692307692309,
+        "readability_index_score": 4.996923076923078,
+        "dependency_distance_score": 3.0,
+        "formality_score": 0.9986357092857361
+    },
+    "\"generate a list of fall celebrations from around the world\" -": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.78500000000001,
+        "readability_index_score": 6.649000000000001,
+        "dependency_distance_score": 2.4615384615384617,
+        "formality_score": 0.650597095489502
+    },
+    "\"which celebrations are really similar to one another\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 40.09,
+        "readability_index_score": 9.063749999999999,
+        "dependency_distance_score": 1.7,
+        "formality_score": 0.9941720366477966
+    },
+    "\"do you have any children's book recommendations to teach about these celebrations?\" ": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 53.655,
+        "readability_index_score": 11.259999999999998,
+        "dependency_distance_score": 2.9375,
+        "formality_score": 0.9986599683761597
+    },
+    "\"what activities could I do witth \"Mooncakes\" by Loretta Seto\" ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 78.24500000000002,
+        "readability_index_score": 6.649000000000001,
+        "dependency_distance_score": 2.2857142857142856,
+        "formality_score": 0.988349199295044
+    },
+    "\"Can you tell me what dates these celebrations fall on\" ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 86.70500000000001,
+        "readability_index_score": 4.2940000000000005,
+        "dependency_distance_score": 2.3333333333333335,
+        "formality_score": 0.998362123966217
+    },
+    "\"can you share kind friendly infor about the celtic holiday that inspired halloween?\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.99384615384618,
+        "readability_index_score": 10.431538461538462,
+        "dependency_distance_score": 2.8125,
+        "formality_score": 0.998244047164917
+    },
+    "\"Great, can you turn that into a bulleted list insteaf of paragraphs\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 81.85500000000002,
+        "readability_index_score": 6.157499999999999,
+        "dependency_distance_score": 2.6,
+        "formality_score": 0.9985912442207336
+    },
+    "\"help me write an email about kids fooling around on the bus\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.00500000000001,
+        "readability_index_score": 3.41,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9783545732498169
+    },
+    "\"place value to the thousands place\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 102.045,
+        "readability_index_score": 4.334999999999997,
+        "dependency_distance_score": 1.75,
+        "formality_score": 0.9523397088050842
+    },
+    " \"worksheet to place value to the thousands\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.965,
+        "readability_index_score": 3.7650000000000006,
+        "dependency_distance_score": 1.9,
+        "formality_score": 0.9740741848945618
+    },
+    "\"create a sentence with several adjectives\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 31.545000000000016,
+        "readability_index_score": 9.829999999999998,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9545857310295105
+    },
+    " \"write the same sentence without adjectives\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 78.87285714285717,
+        "readability_index_score": 7.6385714285714315,
+        "dependency_distance_score": 2.2222222222222223,
+        "formality_score": 0.994305431842804
+    },
+    "\"worksheet about adding adjectives\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 54.72500000000002,
+        "readability_index_score": 15.895000000000003,
+        "dependency_distance_score": 1.3333333333333333,
+        "formality_score": 0.9469066262245178
+    },
+    "\"appropriate science experiment for first graders\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 17.44500000000002,
+        "readability_index_score": 15.325000000000003,
+        "dependency_distance_score": 1.75,
+        "formality_score": 0.8696082234382629
+    },
+    "\"ancient alphabets\" ": {
+        "prompt_length_score": 2,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": -6.694999999999993,
+        "readability_index_score": 17.25,
+        "dependency_distance_score": 1.0,
+        "formality_score": 0.7879554033279419
+    },
+    "\"visual resource for oham\" ": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.87500000000001,
+        "readability_index_score": 5.297499999999999,
+        "dependency_distance_score": 1.3333333333333333,
+        "formality_score": 0.8771207332611084
+    },
+    "\"phoenician alphabet\"": {
+        "prompt_length_score": 2,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": -48.994999999999976,
+        "readability_index_score": 21.96,
+        "dependency_distance_score": 1.0,
+        "formality_score": 0.9708350300788879
+    },
+    "\"write a story with a beginning, middle, and an end about trick or treating at the zoo\" ": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.05058823529413,
+        "readability_index_score": 5.632941176470588,
+        "dependency_distance_score": 2.3333333333333335,
+        "formality_score": 0.9985330104827881
+    },
+    " \"rewrite that story more simply\" ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": 0.0,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 105.09000000000002,
+        "readability_index_score": 1.2650000000000006,
+        "dependency_distance_score": 1.0,
+        "formality_score": 0.9676399230957031
+    },
+    " \"replace Max with Yoel and Keysi\"": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": 0.0,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 94.51107142857143,
+        "readability_index_score": -1.5128571428571433,
+        "dependency_distance_score": 0.875,
+        "formality_score": 0.9716590046882629
+    },
+    "\"comprehension questions about the story\"": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 49.48000000000002,
+        "readability_index_score": 14.04,
+        "dependency_distance_score": 1.5714285714285714,
+        "formality_score": 0.9947065711021423
+    },
+    "\"Explain the place value to the thousands\", ": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.95857142857145,
+        "readability_index_score": 4.947142857142854,
+        "dependency_distance_score": 2.9,
+        "formality_score": 0.9982688426971436
+    },
+    "\"How does place value help with addition\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.95857142857145,
+        "readability_index_score": 4.274285714285714,
+        "dependency_distance_score": 1.7777777777777777,
+        "formality_score": 0.9983795881271362
+    },
+    "\"Help to create a lesson for first and second graders based on this topic\", ": {
+        "prompt_length_score": 14,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 89.89642857142859,
+        "readability_index_score": 5.419285714285714,
+        "dependency_distance_score": 3.0588235294117645,
+        "formality_score": 0.9986094236373901
+    },
+    "\"Make this lesson more challenging\", ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.40000000000003,
+        "readability_index_score": 8.387999999999998,
+        "dependency_distance_score": 2.5,
+        "formality_score": 0.9960371851921082
+    },
+    "\"Make this lesson 35 minutes\"": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 100.24000000000002,
+        "readability_index_score": 2.735999999999997,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9827842712402344
+    },
+    "\"Create large place value charts\"": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 100.24000000000002,
+        "readability_index_score": 6.504000000000001,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9976481795310974
+    },
+    "\"Create worksheet with three digit addition problems\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 42.61571428571432,
+        "readability_index_score": 12.348571428571425,
+        "dependency_distance_score": 2.111111111111111,
+        "formality_score": 0.998497724533081
+    },
+    "\"Create a star wars decodable story that allow first and second grade readers to practice their short o\", ": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.76500000000001,
+        "readability_index_score": 9.811666666666667,
+        "dependency_distance_score": 3.9523809523809526,
+        "formality_score": 0.9986565113067627
+    },
+    "\"Simplify this story\", ": {
+        "prompt_length_score": 3,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 62.79000000000002,
+        "readability_index_score": 6.760000000000002,
+        "dependency_distance_score": 1.8333333333333333,
+        "formality_score": 0.9958354234695435
+    },
+    "\"Make it longer\"": {
+        "prompt_length_score": 3,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 119.19000000000003,
+        "readability_index_score": -1.0899999999999999,
+        "dependency_distance_score": 1.4,
+        "formality_score": 0.9844284057617188
+    },
+    "\"Explain why strawberries get wet when they are sprinkled with sugar.\" ": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 80.30636363636367,
+        "readability_index_score": 8.476363636363637,
+        "dependency_distance_score": 3.142857142857143,
+        "formality_score": 0.9986440539360046
+    },
+    "\"How does cholera affect the body\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 87.94500000000002,
+        "readability_index_score": 2.7650000000000006,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9958048462867737
+    },
+    "\"Why do antibiotics kill bacteria and not people?\" ": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.24000000000001,
+        "readability_index_score": 6.120000000000001,
+        "dependency_distance_score": 2.4545454545454546,
+        "formality_score": 0.9972386360168457
+    },
+    " \"What are the names of the different type of antibiotics that cause the different type of damage?\"": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.665000000000006,
+        "readability_index_score": 8.503333333333334,
+        "dependency_distance_score": 3.0476190476190474,
+        "formality_score": 0.9986653327941895
+    },
+    "\"Design an osmosis lab that uses potato cores and sucrose solutions\" ": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 87.99727272727276,
+        "readability_index_score": 8.048181818181817,
+        "dependency_distance_score": 2.230769230769231,
+        "formality_score": 0.9984866380691528
+    },
+    "\"change the percent to molarity\" ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.40000000000003,
+        "readability_index_score": 5.562000000000001,
+        "dependency_distance_score": 1.8571428571428572,
+        "formality_score": 0.9747493267059326
+    },
+    "\"How does dialysis work?\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.87500000000001,
+        "readability_index_score": 2.942499999999999,
+        "dependency_distance_score": 1.8571428571428572,
+        "formality_score": 0.9957842230796814
+    },
+    "\"Explain how the model shows selective permeability of the membrane to specific ions.\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 43.963076923076954,
+        "readability_index_score": 10.793846153846154,
+        "dependency_distance_score": 3.1875,
+        "formality_score": 0.9986379742622375
+    },
+    "\"create a common and proper noun review for 5th graders\" ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 78.24500000000002,
+        "readability_index_score": 4.765000000000001,
+        "dependency_distance_score": 2.8333333333333335,
+        "formality_score": 0.9924564361572266
+    },
+    "\"create a 5th grade homework page for common and proper nouns\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 80.30636363636367,
+        "readability_index_score": 5.47909090909091,
+        "dependency_distance_score": 3.230769230769231,
+        "formality_score": 0.9965479969978333
+    },
+    "\"write an essay explaining how David is helpful to his family\" ": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 64.9245454545455,
+        "readability_index_score": 5.47909090909091,
+        "dependency_distance_score": 2.076923076923077,
+        "formality_score": 0.9985823631286621
+    },
+    "\"respond to two ways David is helpful in a text dependent analysis\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 60.70500000000001,
+        "readability_index_score": 5.765000000000001,
+        "dependency_distance_score": 2.2857142857142856,
+        "formality_score": 0.998497486114502
+    },
+    "\"write comprehension questions for chapter 1 of the novel Malinche by Laura esquivel\",": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.97846153846157,
+        "readability_index_score": 10.793846153846154,
+        "dependency_distance_score": 2.875,
+        "formality_score": 0.9986516833305359
+    },
+    "\"write simpler comprehension questions for the chapter\", ": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 54.70142857142861,
+        "readability_index_score": 13.69428571428572,
+        "dependency_distance_score": 2.3,
+        "formality_score": 0.9972286820411682
+    },
+    "\"write these questions in Spanish\", ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 83.32000000000004,
+        "readability_index_score": 7.445999999999998,
+        "dependency_distance_score": 2.375,
+        "formality_score": 0.9711169004440308
+    },
+    "\"write the original questions in Spanish\", ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 59.745000000000005,
+        "readability_index_score": 8.260000000000002,
+        "dependency_distance_score": 2.4444444444444446,
+        "formality_score": 0.9878888726234436
+    },
+    "\"escribe preguntas de analisis mas complejas\"": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 17.44500000000002,
+        "readability_index_score": 11.399999999999999,
+        "dependency_distance_score": 2.75,
+        "formality_score": 0.820163369178772
+    },
+    "\"write an answer key to the questions\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.95857142857145,
+        "readability_index_score": 2.2557142857142836,
+        "dependency_distance_score": 1.8888888888888888,
+        "formality_score": 0.9962245225906372
+    },
+    "\"excribe preguntas de comprehension simples para capitulo 2 de malinche por laura esquivel\", ": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 37.455384615384645,
+        "readability_index_score": 12.96769230769231,
+        "dependency_distance_score": 3.0625,
+        "formality_score": 0.9756841063499451
+    },
+    "\"crea preguntas de analisis para capitulo 2\", \"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 42.61571428571432,
+        "readability_index_score": 6.2928571428571445,
+        "dependency_distance_score": 4.0,
+        "formality_score": 0.9948350191116333
+    },
+    "escribe las preguntas en lenguaje mas simple\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.7871428571429,
+        "readability_index_score": 7.6385714285714315,
+        "dependency_distance_score": 2.25,
+        "formality_score": 0.013559655286371708
+    },
+    "\"escribe las respuestas a las preguntas menionadas\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 54.70142857142861,
+        "readability_index_score": 11.002857142857145,
+        "dependency_distance_score": 2.7777777777777777,
+        "formality_score": 0.9718766808509827
+    },
+    "\"contesta las siguientes preguntas sobre la novela malinche por laura esquivel ¿Donde tiene lugar la historia al principio? ¿Que cambio important le sucede al personaj principal cuando es joven? ¿Se lleva mejor al personaje principal con su mama o con su papa? ¿Por que es importante el nombre tiene del personaje principal en la historia?\", ": {
+        "prompt_length_score": 55,
+        "first_order_coherence_score": 0.893138587474823,
+        "second_order_coherence_score": 0.896376222372055,
+        "flesch_readability_score": 59.05693181818182,
+        "readability_index_score": 9.080636363636366,
+        "dependency_distance_score": 3.5668067226890754,
+        "formality_score": 0.9959186911582947
+    },
+    "\"incluye citas o evidencia del texto para las respuestas mencionadas\".": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.32500000000002,
+        "readability_index_score": 10.887999999999998,
+        "dependency_distance_score": 3.3076923076923075,
+        "formality_score": 0.9442116022109985
+    },
+    "\"encuntra evidencia que describe ¿Donde tiene lugar la historia al principio? en capitulo 1 de la novela malinche escrita por laura esquivel\"": {
+        "prompt_length_score": 22,
+        "first_order_coherence_score": 0.8148515820503235,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 49.54272727272729,
+        "readability_index_score": 8.904545454545453,
+        "dependency_distance_score": 2.541666666666667,
+        "formality_score": 0.9803196787834167
+    },
+    "\"genera una lista de vocabulario de 30 palabras sobre el mundo laboral\",": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 67.75500000000001,
+        "readability_index_score": 7.334999999999997,
+        "dependency_distance_score": 5.4,
+        "formality_score": 0.9859296679496765
+    },
+    "\"pon las lista en espanol e ingles\", ": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.95857142857145,
+        "readability_index_score": 0.23714285714285666,
+        "dependency_distance_score": 2.4,
+        "formality_score": 0.9759075045585632
+    },
+    "\"crea una lista de 40 profesiones mas populares en espanol e ingles\", ": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 74.805,
+        "readability_index_score": 6.157499999999999,
+        "dependency_distance_score": 2.933333333333333,
+        "formality_score": 0.9923965334892273
+    },
+    "\"crea una lista de vocabulario con 40 palabras claves para hablar sobre sistemas de educacio univesitaria\"": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 42.545000000000016,
+        "readability_index_score": 12.769375000000004,
+        "dependency_distance_score": 3.611111111111111,
+        "formality_score": 0.9908033609390259
+    },
+    "\"[Give me some pictures about \"artificial intelligence\"])\" ": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 30.53000000000003,
+        "readability_index_score": 12.348571428571425,
+        "dependency_distance_score": 3.2857142857142856,
+        "formality_score": 0.9963831901550293
+    },
+    "\"Can you help me translate it into Chinese?\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.965,
+        "readability_index_score": 2.5874999999999986,
+        "dependency_distance_score": 2.3636363636363638,
+        "formality_score": 0.998572587966919
+    },
+    "\"Can you give me an article based on these pictures?\",": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.165,
+        "readability_index_score": 2.8810000000000002,
+        "dependency_distance_score": 3.0714285714285716,
+        "formality_score": 0.9986478686332703
+    },
+    "Thank you! That’s great! Can you help me design some reading comprehension questions?\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": 0.7889937162399292,
+        "second_order_coherence_score": 0.7421820759773254,
+        "flesch_readability_score": 87.28404761904761,
+        "readability_index_score": 4.453333333333333,
+        "dependency_distance_score": 1.5757575757575755,
+        "formality_score": 0.9986316561698914
+    },
+    "\"I want to design a debate on \"The Impact of Artificial Intelligence on Humanity\", what do you think I should do?\"": {
+        "prompt_length_score": 21,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 60.634285714285724,
+        "readability_index_score": 8.807142857142857,
+        "dependency_distance_score": 3.925925925925926,
+        "formality_score": 0.9986532926559448
+    },
+    "\"You are awesome! Do you know when AI appeared on earth?\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": 0.8187910318374634,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 101.27068181818181,
+        "readability_index_score": -0.2681818181818194,
+        "dependency_distance_score": 1.7999999999999998,
+        "formality_score": 0.9986600875854492
+    },
+    "\"Create comprehension questions in Spanish about the following text. Questions can include multiple choice, short answer, true and false, fill in the blank, and personal response. [copied text from article in Spanish]\"": {
+        "prompt_length_score": 32,
+        "first_order_coherence_score": 0.7559290528297424,
+        "second_order_coherence_score": 0.8005436062812805,
+        "flesch_readability_score": 66.46458333333337,
+        "readability_index_score": 9.955520833333331,
+        "dependency_distance_score": 2.64983164983165,
+        "formality_score": 0.998572587966919
+    },
+    "\"What is the official name of round up?": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.965,
+        "readability_index_score": 0.2325000000000017,
+        "dependency_distance_score": 1.9,
+        "formality_score": 0.9787219166755676
+    },
+    "\"Help me find resources related to pesticide use in soy fields in Argentina or South America, especially glyphosate and Monsanto\"": {
+        "prompt_length_score": 20,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 68.09500000000004,
+        "readability_index_score": 13.768499999999996,
+        "dependency_distance_score": 3.217391304347826,
+        "formality_score": 0.998648464679718
+    },
+    "\"Create a worksheet practicing the preterite vs. the imperfect in Spanish where you need to choose which one is correct in a story form and then some grammar questions\",": {
+        "prompt_length_score": 29,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 60.71034482758621,
+        "readability_index_score": 15.483103448275862,
+        "dependency_distance_score": 2.03125,
+        "formality_score": 0.998663067817688
+    },
+    "\"Generate the answer key for the previous exercise\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 40.09,
+        "readability_index_score": 7.297499999999999,
+        "dependency_distance_score": 2.1,
+        "formality_score": 0.9985564351081848
+    },
+    "\"Create comprehension questions in Spanish related to this vidieo:\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 47.30000000000004,
+        "readability_index_score": 12.376666666666672,
+        "dependency_distance_score": 2.6666666666666665,
+        "formality_score": 0.9986588954925537
+    },
+    "\"Give a description in Spanish of the photo including cultural elements\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 49.54272727272729,
+        "readability_index_score": 9.760909090909088,
+        "dependency_distance_score": 2.076923076923077,
+        "formality_score": 0.9986758828163147
+    },
+    "\"Write a polite email to a parent about their child who keeps arriving late to class showing concern and expressing the need for the student to arrive on time\"": {
+        "prompt_length_score": 29,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.62758620689657,
+        "readability_index_score": 14.021379310344827,
+        "dependency_distance_score": 2.967741935483871,
+        "formality_score": 0.9986374974250793
+    },
+    "\"What are the key steps to finding global extrema using calculus?\" , \"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 64.9245454545455,
+        "readability_index_score": 6.7636363636363654,
+        "dependency_distance_score": 4.0,
+        "formality_score": 0.9986542463302612
+    },
+    "What are the key steps for the concavity of a graph using calculus?\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 76.50153846153849,
+        "readability_index_score": 4.634615384615387,
+        "dependency_distance_score": 2.8,
+        "formality_score": 0.9986405968666077
+    },
+    "\"Write a calculus question that would make it clear that a student understands how to find an absolute maximum\"": {
+        "prompt_length_score": 19,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 58.42368421052632,
+        "readability_index_score": 10.62842105263158,
+        "dependency_distance_score": 2.6666666666666665,
+        "formality_score": 0.9986775517463684
+    },
+    "Write a calculus question that would make it clear that a student understands where a particular is speeding up or slowing down.\"": {
+        "prompt_length_score": 22,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 57.605000000000004,
+        "readability_index_score": 12.263636363636365,
+        "dependency_distance_score": 3.7083333333333335,
+        "formality_score": 0.998638927936554
+    },
+    "\"Write a simple definition for the law of conservation of mass for my middle school science class\" -": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.12117647058825,
+        "readability_index_score": 9.23470588235294,
+        "dependency_distance_score": 2.6,
+        "formality_score": 0.9986624717712402
+    },
+    "\"What do you mean by closed system? Rewrite the definition explaining that term as well.\" ": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": 0.8218978047370911,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 80.78250000000001,
+        "readability_index_score": 4.614000000000001,
+        "dependency_distance_score": 2.45,
+        "formality_score": 0.9986366629600525
+    },
+    "\"How can I use smores to demonsrate the law of conservation of mass? Write a list of simple instructions for middle schoolers to follow in order to complete this activity.\" ": {
+        "prompt_length_score": 30,
+        "first_order_coherence_score": 0.8791483640670776,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.99000000000002,
+        "readability_index_score": 7.893000000000001,
+        "dependency_distance_score": 2.856140350877193,
+        "formality_score": 0.9986191987991333
+    },
+    "\"What if I don't have a microwave or anything to heat it up? Will it still work?\" ": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": 0.9117355346679688,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.65455882352943,
+        "readability_index_score": -1.1105882352941165,
+        "dependency_distance_score": 2.125,
+        "formality_score": 0.9967053532600403
+    },
+    "\"Give me 3 post-activity questions that we could discuss as a class based on this activity\" ": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 85.07411764705884,
+        "readability_index_score": 7.295294117647057,
+        "dependency_distance_score": 2.75,
+        "formality_score": 0.9986722469329834
+    },
+    "\"What are some potential answers to these questions?\" ": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 71.81500000000001,
+        "readability_index_score": 7.88625,
+        "dependency_distance_score": 2.5454545454545454,
+        "formality_score": 0.9986743927001953
+    },
+    "\"Write a list of classroom expectations for this activity in order to manage classroom behaviors.\" ": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.25000000000003,
+        "readability_index_score": 11.503999999999998,
+        "dependency_distance_score": 3.2777777777777777,
+        "formality_score": 0.9986410737037659
+    },
+    "\"Make it shorter\" ": {
+        "prompt_length_score": 3,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.99000000000004,
+        "readability_index_score": 0.4800000000000004,
+        "dependency_distance_score": 1.4,
+        "formality_score": 0.980998694896698
+    },
+    "\"They're not supposed to eat them tho\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.04428571428575,
+        "readability_index_score": 0.23714285714285666,
+        "dependency_distance_score": 2.3,
+        "formality_score": 0.945925772190094
+    },
+    "What are 4 different group member roles that I could use for this activity?\"": {
+        "prompt_length_score": 14,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 83.85357142857143,
+        "readability_index_score": 6.092142857142857,
+        "dependency_distance_score": 3.5,
+        "formality_score": 0.998482882976532
+    },
+    "\"How could I distribute these roles so no one fights over them?\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.955,
+        "readability_index_score": 4.195,
+        "dependency_distance_score": 3.0,
+        "formality_score": 0.9986353516578674
+    },
+    "\"Create an MYP IB unit planner on this PDF\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 94.30000000000001,
+        "readability_index_score": 0.33999999999999986,
+        "dependency_distance_score": 2.4545454545454546,
+        "formality_score": 0.996623158454895
+    },
+    "\"Add Michigan's Social Studies 6th Grade Level Content Expectations GLCEs to this\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 67.75500000000001,
+        "readability_index_score": 10.8675,
+        "dependency_distance_score": 3.6,
+        "formality_score": 0.9972584247589111
+    },
+    "\"How do you solve 1 1/4 - 2/4\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 115.13000000000002,
+        "readability_index_score": -4.472857142857144,
+        "dependency_distance_score": 2.3,
+        "formality_score": 0.9836302399635315
+    },
+    "\"Construct a unit plan for teaching the binomial theorem at the Math HL level (us the IB syllabus). List in a table form including key concepts\",": {
+        "prompt_length_score": 26,
+        "first_order_coherence_score": 0.7912854552268982,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 73.24769230769233,
+        "readability_index_score": 5.721538461538465,
+        "dependency_distance_score": 2.831818181818182,
+        "formality_score": 0.998640239238739
+    },
+    "\"Can you expand on week 3? What are some good examples?\",": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": 0.8336895704269409,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 101.27068181818181,
+        "readability_index_score": -0.6963636363636354,
+        "dependency_distance_score": 2.1875,
+        "formality_score": 0.9986255168914795
+    },
+    "\"You say 'Example: Using the binomial theorem in problems involving physics, like calculating the potential energy in a spring system.' Can you give an example of such a problem?\", ": {
+        "prompt_length_score": 29,
+        "first_order_coherence_score": 0.9060172438621521,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 52.08991379310348,
+        "readability_index_score": 9.045172413793104,
+        "dependency_distance_score": 3.503205128205128,
+        "formality_score": 0.9986226558685303
+    },
+    "\"Can you come up with an application where n is far greater than 2?\"": {
+        "prompt_length_score": 14,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 83.85357142857143,
+        "readability_index_score": 3.0642857142857167,
+        "dependency_distance_score": 3.0,
+        "formality_score": 0.9986610412597656
+    },
+    "\"Can you write a problem set with 4 questions related to the binomial theorem. One should be a 'word problem'\",": {
+        "prompt_length_score": 20,
+        "first_order_coherence_score": 0.8337755799293518,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 74.01500000000001,
+        "readability_index_score": 3.8230000000000004,
+        "dependency_distance_score": 2.4125,
+        "formality_score": 0.9986353516578674
+    },
+    "\"Can you write a question that involves both trig identities and the binomial theorem used in conjunection\", ": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 45.26235294117649,
+        "readability_index_score": 11.728235294117646,
+        "dependency_distance_score": 2.9,
+        "formality_score": 0.9986428618431091
+    },
+    "\"Can you rewrite that question in a `show that' form?\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.68818181818183,
+        "readability_index_score": 1.625454545454545,
+        "dependency_distance_score": 3.4,
+        "formality_score": 0.9986679553985596
+    },
+    "\"produce a solution key to your problem\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 78.87285714285717,
+        "readability_index_score": 3.6014285714285705,
+        "dependency_distance_score": 1.7777777777777777,
+        "formality_score": 0.6994155049324036
+    },
+    "\"Create questions from this model\" ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.40000000000003,
+        "readability_index_score": 7.445999999999998,
+        "dependency_distance_score": 1.5714285714285714,
+        "formality_score": 0.9984021782875061
+    },
+    "\"Create an 'application' style question based on the model above": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.32500000000002,
+        "readability_index_score": 8.062000000000001,
+        "dependency_distance_score": 2.769230769230769,
+        "formality_score": 0.997473418712616
+    },
+    "\"Create this image in the style of Salvador Dali\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 84.90000000000003,
+        "readability_index_score": 3.4800000000000004,
+        "dependency_distance_score": 2.090909090909091,
+        "formality_score": 0.9984379410743713
+    },
+    "\"Now create this image in a surrealistic style\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.24000000000001,
+        "readability_index_score": 4.942499999999999,
+        "dependency_distance_score": 2.2,
+        "formality_score": 0.9984146356582642
+    },
+    "Copied the text from the output \"I can create an image in a surrealistic style, which would reflect the kind of dream-like and fantastical elements often associated with Dali's work, without directly imitating it\"": {
+        "prompt_length_score": 34,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 40.784285714285716,
+        "readability_index_score": 19.350857142857144,
+        "dependency_distance_score": 3.4390243902439024,
+        "formality_score": 0.9985952973365784
+    },
+    "\"Write a summary of the text as a list of main ideas.\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.00500000000001,
+        "readability_index_score": 0.2700000000000031,
+        "dependency_distance_score": 3.066666666666667,
+        "formality_score": 0.9986538887023926
+    },
+    "\"Write a vocabulary question with four answer selections of the meaning of the word mendacious\"": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.890000000000015,
+        "readability_index_score": 10.875999999999998,
+        "dependency_distance_score": 2.235294117647059,
+        "formality_score": 0.9986787438392639
+    },
+    "\"Give three examples of allusions to pop culture in the Disney movie Hercules\" ": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.99384615384618,
+        "readability_index_score": 8.25769230769231,
+        "dependency_distance_score": 2.466666666666667,
+        "formality_score": 0.9985623955726624
+    },
+    "\"Write an introduction paragraph for the prompt above\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 71.81500000000001,
+        "readability_index_score": 9.063749999999999,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9986677169799805
+    },
+    "\"Help me write an conclusion paragraph for an essay on this topic\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 74.805,
+        "readability_index_score": 5.372500000000002,
+        "dependency_distance_score": 2.142857142857143,
+        "formality_score": 0.9985882639884949
+    },
+    "\"Rewrite the paragraph using simpler language\"": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 45.64500000000001,
+        "readability_index_score": 12.184999999999995,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9985995888710022
+    },
+    "\"Write a lead sentence for the block quote in this text.\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.37909090909093,
+        "readability_index_score": 2.91,
+        "dependency_distance_score": 3.4285714285714284,
+        "formality_score": 0.9986503720283508
+    },
+    "\"Write a multiple choice question about the main ideas on the same text\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 96.02461538461542,
+        "readability_index_score": 6.083846153846153,
+        "dependency_distance_score": 2.533333333333333,
+        "formality_score": 0.998478353023529
+    },
+    "\"I want to play the board game 'Votes for Women' with my class in a small group context. Can you make 8x11 pdfs of cards the suffragists could use? Also, thanks for your hardwork earlier!\", ": {
+        "prompt_length_score": 35,
+        "first_order_coherence_score": 0.7212852537631989,
+        "second_order_coherence_score": 0.7766355276107788,
+        "flesch_readability_score": 93.47333333333334,
+        "readability_index_score": 4.050761904761906,
+        "dependency_distance_score": 2.7419191919191923,
+        "formality_score": 0.998619556427002
+    },
+    "\"Actually, it would be awesome if you could just use the text on existing cards and blow them up to fit on a standard piece of paper rather than a card. That way students could see each card more easily.\", ": {
+        "prompt_length_score": 40,
+        "first_order_coherence_score": 0.9426855444908142,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 82.90000000000002,
+        "readability_index_score": 7.41,
+        "dependency_distance_score": 2.9191176470588234,
+        "formality_score": 0.9986144304275513
+    },
+    "\"Can you take images from BGG and the internet? I don't have images of these cards.\"": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": 0.8666778206825256,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.965,
+        "readability_index_score": 0.8212499999999991,
+        "dependency_distance_score": 2.1,
+        "formality_score": 0.9986475110054016
+    },
+    "\"I understand. That was a tough ask. Could you make custom cards in the style of the game for me? I would want them to focus on Early, Middle, and Late first wave feminism and feature historical figures like Sojourner Truth, Susan B Anthony, Mary Ann Shadd, and Frankly Belusa.\", ": {
+        "prompt_length_score": 50,
+        "first_order_coherence_score": 0.8148883581161499,
+        "second_order_coherence_score": 0.7730300724506378,
+        "flesch_readability_score": 84.16750000000002,
+        "readability_index_score": 5.355600000000003,
+        "dependency_distance_score": 2.5729949874686717,
+        "formality_score": 0.99860018491745
+    },
+    "\"These are beautiful cards but I do not understand what function they would serve in the game.\"": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 80.09764705882354,
+        "readability_index_score": 8.126470588235296,
+        "dependency_distance_score": 2.85,
+        "formality_score": 0.9986373782157898
+    },
+    "\"Can you create a document that succinctly explains the rules of the game 'Votes for Women'?\"": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 74.27000000000001,
+        "readability_index_score": 8.059375,
+        "dependency_distance_score": 3.6666666666666665,
+        "formality_score": 0.9986314177513123
+    },
+    "\"What gender do you assume ChatGPT?\",": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 73.84500000000001,
+        "readability_index_score": 3.5500000000000007,
+        "dependency_distance_score": 2.2,
+        "formality_score": 0.9984294772148132
+    },
+    " \"I see, then what are your pronouns? I would like to refer to you in a way that you prefer that doesn't involve simply saying ChatGPT over and over.\"": {
+        "prompt_length_score": 29,
+        "first_order_coherence_score": 0.9097211956977844,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 92.91000000000001,
+        "readability_index_score": 3.968,
+        "dependency_distance_score": 3.0036363636363634,
+        "formality_score": 0.9986506104469299
+    },
+    "\"Can you design a twenty-question, multiple-choice quiz in the AP US History style that focuses on Progressive era politics and figures?\"": {
+        "prompt_length_score": 21,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.46391304347827,
+        "readability_index_score": 12.80086956521739,
+        "dependency_distance_score": 3.9655172413793105,
+        "formality_score": 0.9986306428909302
+    },
+    "\"That is awesome. For question six, can you give me a small quotation from the Jungle for students to analyze?\", ": {
+        "prompt_length_score": 20,
+        "first_order_coherence_score": 0.7988694310188293,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 86.70500000000001,
+        "readability_index_score": 4.058499999999999,
+        "dependency_distance_score": 2.4571428571428573,
+        "formality_score": 0.9986292123794556
+    },
+    "\"Awesome! Great quote! Can you give me a CMS citation? I'm trying to drive good citation practices home for kids.\", ": {
+        "prompt_length_score": 20,
+        "first_order_coherence_score": 0.7001007348299026,
+        "second_order_coherence_score": 0.5861963828404745,
+        "flesch_readability_score": 97.025,
+        "readability_index_score": 1.0584999999999987,
+        "dependency_distance_score": 1.2833333333333332,
+        "formality_score": 0.9986416697502136
+    },
+    "\"Can you also give me a quote from Teddy Roosevelt describing the platform of the Bull-Moose party? , ": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 89.865,
+        "readability_index_score": 8.503333333333334,
+        "dependency_distance_score": 3.272727272727273,
+        "formality_score": 0.9986623525619507
+    },
+    "And a CMS citation for that quote?\"": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.04428571428575,
+        "readability_index_score": 0.23714285714285666,
+        "dependency_distance_score": 2.111111111111111,
+        "formality_score": 0.9917107820510864
+    },
+    "\"Can you give me a full-text of the 'Man in the Arena' speed given by Teddy Roosevelt after his presidency? , ": {
+        "prompt_length_score": 21,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 88.83428571428574,
+        "readability_index_score": 7.685714285714287,
+        "dependency_distance_score": 3.3703703703703702,
+        "formality_score": 0.9986408352851868
+    },
+    "Can you also give a CMS citation for that?\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.70000000000002,
+        "readability_index_score": 0.33999999999999986,
+        "dependency_distance_score": 2.4545454545454546,
+        "formality_score": 0.9974066615104675
+    },
+    "\"Yes, I know that was the commonly published exerpt but can you give me the full-text of the speech?\"": {
+        "prompt_length_score": 19,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 89.24500000000003,
+        "readability_index_score": 6.939,
+        "dependency_distance_score": 3.08,
+        "formality_score": 0.9986629486083984
+    },
+    "\"Thank you so much! That makes sense. As a final question, can you tell me the inputs on a Nintendo Switch pro-controller to perform the 'gluck gluck' combo for the Super Smash Bros. character Banjo & Kazooie?\"": {
+        "prompt_length_score": 37,
+        "first_order_coherence_score": 0.7735949456691742,
+        "second_order_coherence_score": 0.7794883251190186,
+        "flesch_readability_score": 84.56531531531532,
+        "readability_index_score": 5.6134234234234235,
+        "dependency_distance_score": 2.2762762762762763,
+        "formality_score": 0.9986125230789185
+    },
+    "\"Give a warm up for a class on functions\" ": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.70000000000002,
+        "readability_index_score": -0.706666666666667,
+        "dependency_distance_score": 2.272727272727273,
+        "formality_score": 0.9983420372009277
+    },
+    "\"Class activities to explain domain and range\" ": {
+        "prompt_length_score": 7,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.7871428571429,
+        "readability_index_score": 7.6385714285714315,
+        "dependency_distance_score": 1.7777777777777777,
+        "formality_score": 0.9984299540519714
+    },
+    "\"Give me a lesson plan for rational functions\" ": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 71.81500000000001,
+        "readability_index_score": 4.353750000000002,
+        "dependency_distance_score": 2.1,
+        "formality_score": 0.9974002838134766
+    },
+    "\"What are some real world applications of rational functions?\" ": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 56.70000000000002,
+        "readability_index_score": 9.760000000000002,
+        "dependency_distance_score": 2.75,
+        "formality_score": 0.9986709356307983
+    },
+    " \"Create a grading rubric for an assessment on functions\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.32500000000002,
+        "readability_index_score": 5.707000000000001,
+        "dependency_distance_score": 2.25,
+        "formality_score": 0.9985089898109436
+    },
+    " \"Can you make a handout for domain and range?\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.625,
+        "readability_index_score": 0.5259999999999998,
+        "dependency_distance_score": 2.5384615384615383,
+        "formality_score": 0.9985634684562683
+    },
+    "\"What are ATL skills?\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 118.17500000000001,
+        "readability_index_score": -0.5899999999999999,
+        "dependency_distance_score": 1.8571428571428572,
+        "formality_score": 0.9985917210578918
+    },
+    "\"Give me a lesson plan for a class based on the ATL skill of self management\" ": {
+        "prompt_length_score": 16,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 90.13250000000001,
+        "readability_index_score": 4.232500000000002,
+        "dependency_distance_score": 2.2777777777777777,
+        "formality_score": 0.9986097812652588
+    },
+    "\"What's the Pomodoro Technique?\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.87500000000001,
+        "readability_index_score": 8.829999999999998,
+        "dependency_distance_score": 2.25,
+        "formality_score": 0.9984204769134521
+    },
+    "\"Are there any math teacher jobs in the Ann Arbor area?\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.68818181818183,
+        "readability_index_score": 2.4818181818181806,
+        "dependency_distance_score": 3.2142857142857144,
+        "formality_score": 0.9986176490783691
+    },
+    "\"Create an activity on financial literacy for high school students\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 52.86500000000001,
+        "readability_index_score": 9.945999999999998,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9985169768333435
+    },
+    "\"How do I keep students off their phones?\"": {
+        "prompt_length_score": 8,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.54,
+        "readability_index_score": 1.4100000000000001,
+        "dependency_distance_score": 2.4545454545454546,
+        "formality_score": 0.9981065988540649
+    },
+    "\"Explain to a student how to use the first derivative test to analyze a 5th degree polynomial function\"": {
+        "prompt_length_score": 18,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 52.265000000000015,
+        "readability_index_score": 9.55,
+        "dependency_distance_score": 3.1,
+        "formality_score": 0.9986397624015808
+    },
+    "\"Solve the inequality |4x -1| > 2x +5, showing steps.\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": 0.5148624181747437,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 83.32000000000004,
+        "readability_index_score": 0.3810000000000002,
+        "dependency_distance_score": 2.0,
+        "formality_score": 0.9986353516578674
+    },
+    "\"Design a cumulative activity that would demonstrate a high school student's understanding of the concepts of continuity and differentiability\" ": {
+        "prompt_length_score": 19,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 22.8026315789474,
+        "readability_index_score": 18.06526315789474,
+        "dependency_distance_score": 2.5454545454545454,
+        "formality_score": 0.9986360669136047
+    },
+    "\"Show me a function that is differentiable but not continuous at a point\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.486153846153854,
+        "readability_index_score": 6.446153846153845,
+        "dependency_distance_score": 2.1333333333333333,
+        "formality_score": 0.9986491799354553
+    },
+    "\"Create a probability experiment that illustrates the concept of independent events\"": {
+        "prompt_length_score": 11,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 18.77909090909094,
+        "readability_index_score": 14.899090909090908,
+        "dependency_distance_score": 2.1538461538461537,
+        "formality_score": 0.9986749291419983
+    },
+    "\"Help a high school student come up with a topic for a mathematical exploration, for which the product will be a 12-20 page paper but not a research paper.\"": {
+        "prompt_length_score": 29,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 57.945000000000036,
+        "readability_index_score": 12.881,
+        "dependency_distance_score": 3.7714285714285714,
+        "formality_score": 0.998615026473999
+    },
+    "\"Design an activity to introduce the concept of a discrete probability distribution to a high school senior\" ": {
+        "prompt_length_score": 17,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 50.2388235294118,
+        "readability_index_score": 12.005294117647061,
+        "dependency_distance_score": 2.473684210526316,
+        "formality_score": 0.9986701011657715
+    },
+    "\"Create a frequency distribution for a discrete probability experiment.\"": {
+        "prompt_length_score": 9,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 0.30000000000001137,
+        "readability_index_score": 14.993333333333332,
+        "dependency_distance_score": 3.0,
+        "formality_score": 0.9986525774002075
+    },
+    "\"create a piecewide function that illustrates continuity but not differentiability at the change in definition\" ": {
+        "prompt_length_score": 15,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 28.05000000000001,
+        "readability_index_score": 15.899999999999999,
+        "dependency_distance_score": 2.411764705882353,
+        "formality_score": 0.9986010193824768
+    },
+    "\"Now graph this function\"": {
+        "prompt_length_score": 4,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 97.025,
+        "readability_index_score": 4.120000000000001,
+        "dependency_distance_score": 1.5,
+        "formality_score": 0.99116450548172
+    },
+    "\"Make a lab for 9th grade students using the following criteria: [long criteria copied from course notes about a lab launching marshmallows]\",": {
+        "prompt_length_score": 22,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 57.605000000000004,
+        "readability_index_score": 14.19045454545455,
+        "dependency_distance_score": 3.75,
+        "formality_score": 0.998643696308136
+    },
+    "\"Give more guidance on the data collection and organizing section in day 3.\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 63.486153846153854,
+        "readability_index_score": 7.170769230769231,
+        "dependency_distance_score": 3.4375,
+        "formality_score": 0.9986633062362671
+    },
+    "\"Make slides for the teacher to present this all to the class.\",": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 103.00500000000001,
+        "readability_index_score": 3.8024999999999984,
+        "dependency_distance_score": 3.875,
+        "formality_score": 0.9986538887023926
+    },
+    "\"Add diagrams to the presentation\", ": {
+        "prompt_length_score": 5,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 66.40000000000003,
+        "readability_index_score": 7.445999999999998,
+        "dependency_distance_score": 2.25,
+        "formality_score": 0.9986036419868469
+    },
+    "\"Instead of diagrams, add drawings of students doing the lab to the slides\"": {
+        "prompt_length_score": 13,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 76.50153846153849,
+        "readability_index_score": 6.808461538461536,
+        "dependency_distance_score": 2.125,
+        "formality_score": 0.9986518025398254
+    },
+    "\"give a diagram of a student participating in this lab\", ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 61.32500000000002,
+        "readability_index_score": 4.2940000000000005,
+        "dependency_distance_score": 2.6153846153846154,
+        "formality_score": 0.9804450869560242
+    },
+    "\"give a diagram of an adult participating in this lab\", ": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 69.78500000000001,
+        "readability_index_score": 3.8230000000000004,
+        "dependency_distance_score": 2.6153846153846154,
+        "formality_score": 0.9792114496231079
+    },
+    "\"what is this not aligned with in the content policy for images?\"": {
+        "prompt_length_score": 12,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 95.955,
+        "readability_index_score": 4.587499999999999,
+        "dependency_distance_score": 2.8666666666666667,
+        "formality_score": 0.9986708164215088
+    },
+    ", \"give a diagram of a person demonstrating this lab\"": {
+        "prompt_length_score": 10,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 75.50000000000003,
+        "readability_index_score": 4.526666666666667,
+        "dependency_distance_score": 1.9166666666666667,
+        "formality_score": 0.9102646112442017
+    }
+}

@@ -5,13 +5,16 @@ from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import numpy as np
+from transformers import XLMRobertaTokenizerFast, XLMRobertaForSequenceClassification
+import textdescriptives as td
+
 
 
 
 df = pd.read_csv('data/prompts_responses.csv')
 df = df[["Original Prompt", "Output #1 (Andrea)"]]
 df = df.rename(columns={"Output #1 (Andrea)": "Response"})
-test_resp = df["Response"][0]
+
 
 
 # RESPONSE METRICS
@@ -61,5 +64,78 @@ def response_depth_score(response: str):
 
     return depth_score
 
-# test_resp = "This is sentence one. Here's sentence two! And a abadbasdvbd sentence? And a fourth!"
-print(response_depth_score(test_resp))
+
+# PROMPT METRICS
+def prompt_formality_score(prompt: str):
+    tokenizer = XLMRobertaTokenizerFast.from_pretrained('s-nlp/xlmr_formality_classifier')
+    model = XLMRobertaForSequenceClassification.from_pretrained('s-nlp/xlmr_formality_classifier')
+
+    encoding = tokenizer(
+        prompt,
+        add_special_tokens=True,
+        return_token_type_ids=True,
+        truncation=True,
+        padding="max_length",
+        return_tensors="pt",
+    )
+    
+    output = model(**encoding)
+    
+    # Get probabilities with softmax
+    probabilities = output.logits.softmax(dim=1)[0]  # [0] gets first (only) result
+    
+    # probabilities[0] = formal probability
+    # probabilities[1] = informal probability    
+    return probabilities[0].item()
+
+def prompt_politeness_score(prompt: str):
+    pass
+
+def prompt_length_score(prompt: str):
+    return len(prompt.split())      # only amount of words for now
+
+def first_order_coherence_score(text: str):
+    # specify spaCy model and which metrics to extract
+    test = td.extract_metrics(text=text, spacy_model="en_core_web_lg", metrics=["coherence"])
+
+    return test['first_order_coherence'][0]
+
+def second_order_coherence_score(text: str):
+    # specify spaCy model and which metrics to extract
+    test = td.extract_metrics(text=text, spacy_model="en_core_web_lg", metrics=["coherence"])
+
+    return test['second_order_coherence'][0]
+
+def flesch_readability_score(text: str):
+    test = td.extract_metrics(text=text, spacy_model="en_core_web_lg", metrics=["readability"])
+
+    return test['flesch_reading_ease'][0]
+
+def readability_index_score(text: str):
+    test = td.extract_metrics(text=text, spacy_model="en_core_web_lg", metrics=["readability"])
+
+    return test['automated_readability_index'][0]
+
+def dependency_distance_score(text: str):
+    test = td.extract_metrics(text=text, spacy_model="en_core_web_lg", metrics=["dependency_distance"])
+    return test['dependency_distance_mean'][0]
+
+
+
+# test = td.extract_metrics(text=df["Response"][0], spacy_model="en_core_web_lg", metrics=["dependency_distance", "coherence"])
+# print(test.columns)
+# print(test['dependency_distance_mean'])
+# print(test['automated_readability_index'])
+
+# print(coherence_score(df["Response"][0]))
+
+
+if __name__ == "__main__":
+    sentence1 = df["Response"][0]
+    sentence2 = "fuck you hoe"
+    print(response_depth_score(sentence1))
+    print(sentence2)
+    print(response_depth_score(sentence2))
+
+
+    print(prompt_formality_score(sentence2))
