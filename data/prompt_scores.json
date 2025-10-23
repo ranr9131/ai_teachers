@@ -476,6 +476,15 @@
         "dependency_distance_score": 1.75,
         "formality_score": 0.8696082234382629
     },
+    "\"appropriate science experiment for first graders2\" ": {
+        "prompt_length_score": 6,
+        "first_order_coherence_score": NaN,
+        "second_order_coherence_score": NaN,
+        "flesch_readability_score": 17.44500000000002,
+        "readability_index_score": 15.325000000000003,
+        "dependency_distance_score": 1.75,
+        "formality_score": 0.8696082234382629
+    },
     "\"ancient alphabets\" ": {
         "prompt_length_score": 2,
         "first_order_coherence_score": NaN,

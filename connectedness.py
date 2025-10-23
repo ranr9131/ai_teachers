@@ -2,6 +2,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import numpy as np
+import json
 
 df = pd.read_csv('data/prompts_responses.csv')
 df = df[["Teacher ID", "Original Prompt", "Output #1 (Andrea)"]]
@@ -32,7 +33,15 @@ def count_clusters(prompts, distance_threshold=0.7):
     return num_clusters
 
 
-
+scores_dict = {}    #teacher id: scores list
 for i in range(len(grouped_prompts)):
     num_clusters = count_clusters(grouped_prompts[i], 1)
-    print(f"Teacher ID: {i+1}. Number of prompts: {len(grouped_prompts[i])}. Number of clusters: {num_clusters}")
+    score = round(num_clusters / len(grouped_prompts[i]), 3)
+    print(f"Teacher ID: {i+1}. Number of prompts: {len(grouped_prompts[i])}. Number of clusters: {num_clusters}. Score(ratio): {score}")
+    scores = [len(grouped_prompts[i]), num_clusters, score]
+    scores_dict[i+1] = scores
+
+with open('data/connectedness_scores.json', 'w') as f:
+    json.dump(scores_dict, f)
+
+print(scores_dict)

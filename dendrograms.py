@@ -71,15 +71,22 @@ def cluster_and_dendrogram_embeddings(prompts, distance_threshold=0.7, filename 
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     print(f"Dendrogram saved to {filename}")
         
+
+    prompt_ids_per_cluster = []
     # Print clustering results
     print(f"\nNumber of clusters: {len(set(cluster_labels))}")
     for cluster_id in sorted(set(cluster_labels)):
+        temp_cluster_id = []
         cluster_prompts = [prompts[i] for i, label in enumerate(cluster_labels) if label == cluster_id]
         print(f"\nCluster {cluster_id}:")
         for prompt in cluster_prompts:
-            print(f"  - {prompts.index(prompt)}. {prompt[:60]}...")
+            print(f"  - {prompts.index(prompt)+1}. {prompt}")
+            temp_cluster_id.append(prompts.index(prompt)+1)
+            # print(f"  - {prompts.index(prompt)}. {prompt[:60]}...")
+
+        prompt_ids_per_cluster.append(temp_cluster_id)
     
-    return linkage_matrix, cluster_labels
+    return linkage_matrix, cluster_labels, prompt_ids_per_cluster
 
 
 
@@ -144,38 +151,40 @@ def cluster_and_dendrogram_score_vector(score_vectors, labels=None, distance_thr
     return linkage_matrix, cluster_labels
 
 
-# prompts = [
-#     "Help me create a lesson plan for fractions.",
-#     "I need help teaching fractions to 5th graders.",
-#     "Can you explain photosynthesis?",
-#     "How do plants photosynthesize?",
-#     "Give me math homework problems.",
-#     "Create algebra practice problems.",
-# ]
 
 prompts_list = list(prompt_scores.keys())
 
-score_vectors = [return_prompt_score_vector(prompt_scores, prompt) for prompt in prompts_list]
 
-linkage_matrix, labels = cluster_and_dendrogram_score_vector(
-    score_vectors, 
-    labels=prompts_list,
-    distance_threshold=2.0,
-    filename="score_vector_dendrogram.png"
-)
-
-linkage_matrix, labels = cluster_and_dendrogram_embeddings(
+linkage_matrix, labels, prompt_ids_by_cluster = cluster_and_dendrogram_embeddings(
     prompts_list, 
-    distance_threshold=2.0,
+    distance_threshold=2.2,
     filename="embedding_dendrogram.png"
 )
 
 
-# print(linkage_matrix)
-# print(labels)
+df = pd.read_csv('data/prompts_responses.csv')
+df = df[["Teacher ID","Prompt ID","Original Prompt", "Output #1 (Andrea)"]]
+df = df.rename(columns={"Output #1 (Andrea)": "Response", "Original Prompt": "Prompt"})
+
+print(df)
 
 
+df = df.copy()
+df["Sequential Prompt ID"] = range(1, len(df) + 1)
+teacher_prompt_groups = df.groupby("Teacher ID")["Sequential Prompt ID"].apply(list).to_dict()
+prompt_ids_by_teacher = []
+for teacher_id, prompt_ids in teacher_prompt_groups.items():
+    print(f"Teacher {teacher_id}: {prompt_ids}")
+    prompt_ids_by_teacher.append(prompt_ids)
 
 
+def get_cluster_by_id(id: int):
+    for i in range(len(prompt_ids_by_cluster)):
+        if id in prompt_ids_by_cluster[i]:
+            return i
+    return -1
 
-# print(return_response_score_vector(response_scores, 'Here’s the illustration of a teacher demonstrating the marshmallow launch experiment in a high school science lab. This image shows the teacher explaining how to use a homemade catapult to explore projectile motion concepts, set against a classroom environment equipped with typical lab materials. This visual could be effectively used in your presentation to demonstrate the instructional part of the lab activity.'))
+print("\n\nCLUSTER SEQUENCES")
+for i in range(len(prompt_ids_by_teacher)):
+    teacher_cluster_seq = [get_cluster_by_id(prompt_id) for prompt_id in prompt_ids_by_teacher[i]]
+    print(f"Teacher {i+1}: {teacher_cluster_seq}")
