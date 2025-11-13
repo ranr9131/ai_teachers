@@ -4,8 +4,8 @@ import json
 from joblib import Parallel, delayed
 
 df = pd.read_csv('data/prompts_responses.csv')
-df = df[["Original Prompt", "Output #2 (Andrea)"]]
-df = df.rename(columns={"Output #2 (Andrea)": "Response", "Original Prompt": "Prompt"})
+df = df[["Original Prompt", "Output #3 (Andrea)"]]
+df = df.rename(columns={"Output #3 (Andrea)": "Response", "Original Prompt": "Prompt"})
 
 
 
@@ -51,5 +51,5 @@ for i in range(len(df)):
 # with open('prompt_scores.json', 'w', encoding='utf-8') as f:
 #     json.dump(prompt_scores, f, ensure_ascii=False, indent=4)
 
-with open('response_scores2.json', 'w', encoding='utf-8') as f:
+with open('response_scores3.json', 'w', encoding='utf-8') as f:
     json.dump(response_scores, f, ensure_ascii=False, indent=4)
