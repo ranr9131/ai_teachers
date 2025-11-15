@@ -20,7 +20,7 @@ print(connectedness)
 with open('data/prompt_scores.json', 'r', encoding='utf-8') as f:
     prompt_scores = json.load(f)
 
-with open('data/response_scores.json', 'r', encoding='utf-8') as f:
+with open('data/response_scores3.json', 'r', encoding='utf-8') as f:
     response_scores = json.load(f)
 
 
@@ -65,12 +65,16 @@ if len(x1) > 1:
     x_line1 = np.linspace(min(x1), max(x1), 100)
     y_line1 = m1 * x_line1 + b1
     plt.plot(x_line1, y_line1, color='red', linewidth=2, label='Line of Best Fit')
+    corr_coef1 = np.corrcoef(x1, y1)[0, 1]
+    plt.text(0.98, 0.02, f'Corr: {corr_coef1:.2f}', transform=plt.gca().transAxes,
+             fontsize=12, verticalalignment='bottom', horizontalalignment='right',
+             bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
 plt.xlabel('Connectedness')
 plt.ylabel('Teacher Avg First Order Coherence Score')
 plt.title('Connectedness vs Teacher Avg First Order Coherence Score')
 plt.legend()
 plt.tight_layout()
-plt.savefig('metric_plots/connectedness_vs_teacher_avg_first_order_coherence_score.png')
+plt.savefig('metric_plots/vs_avg_response_score/connectedness_vs_teacher_avg_first_order_coherence_score.png')
 plt.close()
 
 # Scatter plot: Connectedness vs Teacher Avg Second Order Coherence Scores
@@ -86,100 +90,124 @@ if len(x2) > 1:
     x_line2 = np.linspace(min(x2), max(x2), 100)
     y_line2 = m2 * x_line2 + b2
     plt.plot(x_line2, y_line2, color='red', linewidth=2, label='Line of Best Fit')
+    corr_coef2 = np.corrcoef(x2, y2)[0, 1]
+    plt.text(0.98, 0.02, f'Corr: {corr_coef2:.2f}', transform=plt.gca().transAxes,
+             fontsize=12, verticalalignment='bottom', horizontalalignment='right',
+             bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
 plt.xlabel('Connectedness')
 plt.ylabel('Teacher Avg Second Order Coherence Score')
 plt.title('Connectedness vs Teacher Avg Second Order Coherence Score')
 plt.legend()
 plt.tight_layout()
-plt.savefig('metric_plots/connectedness_vs_teacher_avg_second_order_coherence_score.png')
+plt.savefig('metric_plots/vs_avg_response_score/connectedness_vs_teacher_avg_second_order_coherence_score.png')
 plt.close()
 
 
 
-# score_lists = [
-#     ("prompt_length_score", prompt_length_scores),
-#     ("flesch_readability_score", flesch_readability_scores),
-#     ("readability_index_score", readability_index_scores),
-#     ("dependency_distance_score", dependency_distance_scores),
-#     ("formality_score", formality_scores)
-# ]
+score_lists = [
+    ("prompt_length_score", prompt_length_scores),
+    ("flesch_readability_score", flesch_readability_scores),
+    ("readability_index_score", readability_index_scores),
+    ("dependency_distance_score", dependency_distance_scores),
+    ("formality_score", formality_scores)
+]
 
-# # Plot vs depth_score
-# for score_name, x_scores in score_lists:
-#     plt.figure()
-#     plt.scatter(x_scores, depth_scores, alpha=0.7)
-#     m, b = np.polyfit(x_scores, depth_scores, 1)
-#     plt.plot(x_scores, np.array(x_scores)*m + b, color='red')
-#     plt.xlabel(score_name.replace('_', ' ').title())
-#     plt.ylabel('Depth Score')
-#     plt.title(f'{score_name.replace("_", " ").title()} vs Depth Score')
-#     plt.tight_layout()
-#     plt.savefig(f'metric_plots/{score_name}_vs_depth_score.png')
-#     plt.close()
+# Plot vs depth_score
+for score_name, x_scores in score_lists:
+    plt.figure()
+    x_array = np.array(x_scores)
+    y_array = np.array(depth_scores)
+    plt.scatter(x_array, y_array, alpha=0.7)
+    # Fit line only on valid data
+    valid_mask = ~(np.isnan(x_array) | np.isnan(y_array))
+    x_valid = x_array[valid_mask]
+    y_valid = y_array[valid_mask]
+    if len(x_valid) > 1:
+        m, b = np.polyfit(x_valid, y_valid, 1)
+        x_line = np.linspace(min(x_valid), max(x_valid), 100)
+        y_line = m * x_line + b
+        plt.plot(x_line, y_line, color='red', linewidth=2, label='Line of Best Fit')
+        corr_coef = np.corrcoef(x_valid, y_valid)[0, 1]
+        plt.text(0.98, 0.02, f'Corr: {corr_coef:.2f}', transform=plt.gca().transAxes,
+                 fontsize=12, verticalalignment='bottom', horizontalalignment='right',
+                 bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+    plt.xlabel(score_name.replace('_', ' ').title())
+    plt.ylabel('Depth Score')
+    plt.title(f'{score_name.replace("_", " ").title()} vs Depth Score')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(f'metric_plots/vs_depth_score/{score_name}_vs_depth_score.png')
+    plt.close()
 
 # Plot vs first_order_coherence_score
-# for score_name, x_scores in score_lists:
-#     plt.figure()
+for score_name, x_scores in score_lists:
+    plt.figure()
     
-#     # Filter out NaN values
-#     x_array = np.array(x_scores)
-#     y_array = np.array(first_order_coherence_score)
+    # Filter out NaN values
+    x_array = np.array(x_scores)
+    y_array = np.array(first_order_coherence_score)
     
-#     # Create mask for valid (non-NaN) values
-#     valid_mask = ~(np.isnan(x_array) | np.isnan(y_array))
-#     x_valid = x_array[valid_mask]
-#     y_valid = y_array[valid_mask]
+    # Create mask for valid (non-NaN) values
+    valid_mask = ~(np.isnan(x_array) | np.isnan(y_array))
+    x_valid = x_array[valid_mask]
+    y_valid = y_array[valid_mask]
     
-#     # Plot all points (including NaN)
-#     plt.scatter(x_scores, first_order_coherence_score, alpha=0.7)
+    # Plot all points (including NaN)
+    plt.scatter(x_scores, first_order_coherence_score, alpha=0.7)
     
-#     # Fit line only on valid data
-#     if len(x_valid) > 1:  # Need at least 2 points for a line
-#         m, b = np.polyfit(x_valid, y_valid, 1)
-        
-#         # Create line across the valid data range
-#         x_line = np.linspace(min(x_valid), max(x_valid), 100)
-#         y_line = m * x_line + b
-#         plt.plot(x_line, y_line, color='red', linewidth=2, label='Line of Best Fit')
+    # Fit line only on valid data
+    if len(x_valid) > 1:  # Need at least 2 points for a line
+        m, b = np.polyfit(x_valid, y_valid, 1)
+        x_line = np.linspace(min(x_valid), max(x_valid), 100)
+        y_line = m * x_line + b
+        plt.plot(x_line, y_line, color='red', linewidth=2, label='Line of Best Fit')
+        # Calculate and display correlation coefficient
+        corr_coef = np.corrcoef(x_valid, y_valid)[0, 1]
+        plt.text(0.98, 0.02, f'Corr: {corr_coef:.2f}', transform=plt.gca().transAxes,
+                 fontsize=12, verticalalignment='bottom', horizontalalignment='right',
+                 bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
     
-#     plt.xlabel(score_name.replace('_', ' ').title())
-#     plt.ylabel('First Order Coherence Score')
-#     plt.title(f'{score_name.replace("_", " ").title()} vs First Order Coherence Score')
-#     plt.legend()
-#     plt.tight_layout()
-#     plt.savefig(f'metric_plots/{score_name}_vs_first_order_coherence_score.png')
-#     plt.close()
+    plt.xlabel(score_name.replace('_', ' ').title())
+    plt.ylabel('First Order Coherence Score')
+    plt.title(f'{score_name.replace("_", " ").title()} vs First Order Coherence Score')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(f'metric_plots/vs_first_order_coherence_score/{score_name}_vs_first_order_coherence_score.png')
+    plt.close()
 
 
-# # Plot vs second_order_coherence_score
-# for score_name, x_scores in score_lists:
-#     plt.figure()
+# Plot vs second_order_coherence_score
+for score_name, x_scores in score_lists:
+    plt.figure()
     
-#     # Filter out NaN values
-#     x_array = np.array(x_scores)
-#     y_array = np.array(second_order_coherence_score)
+    # Filter out NaN values
+    x_array = np.array(x_scores)
+    y_array = np.array(second_order_coherence_score)
     
-#     # Create mask for valid (non-NaN) values
-#     valid_mask = ~(np.isnan(x_array) | np.isnan(y_array))
-#     x_valid = x_array[valid_mask]
-#     y_valid = y_array[valid_mask]
+    # Create mask for valid (non-NaN) values
+    valid_mask = ~(np.isnan(x_array) | np.isnan(y_array))
+    x_valid = x_array[valid_mask]
+    y_valid = y_array[valid_mask]
     
-#     # Plot all points (including NaN)
-#     plt.scatter(x_scores, second_order_coherence_score, alpha=0.7)
+    # Plot all points (including NaN)
+    plt.scatter(x_scores, second_order_coherence_score, alpha=0.7)
     
-#     # Fit line only on valid data
-#     if len(x_valid) > 1:  # Need at least 2 points for a line
-#         m, b = np.polyfit(x_valid, y_valid, 1)
-        
-#         # Create line across the valid data range
-#         x_line = np.linspace(min(x_valid), max(x_valid), 100)
-#         y_line = m * x_line + b
-#         plt.plot(x_line, y_line, color='red', linewidth=2, label='Line of Best Fit')
+    # Fit line only on valid data
+    if len(x_valid) > 1:  # Need at least 2 points for a line
+        m, b = np.polyfit(x_valid, y_valid, 1)
+        x_line = np.linspace(min(x_valid), max(x_valid), 100)
+        y_line = m * x_line + b
+        plt.plot(x_line, y_line, color='red', linewidth=2, label='Line of Best Fit')
+        # Calculate and display correlation coefficient
+        corr_coef = np.corrcoef(x_valid, y_valid)[0, 1]
+        plt.text(0.98, 0.02, f'Corr: {corr_coef:.2f}', transform=plt.gca().transAxes,
+                 fontsize=12, verticalalignment='bottom', horizontalalignment='right',
+                 bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
     
-#     plt.xlabel(score_name.replace('_', ' ').title())
-#     plt.ylabel('Second Order Coherence Score')
-#     plt.title(f'{score_name.replace("_", " ").title()} vs Second Order Coherence Score')
-#     plt.legend()
-#     plt.tight_layout()
-#     plt.savefig(f'metric_plots/{score_name}_vs_second_order_coherence_score.png')
-#     plt.close()
+    plt.xlabel(score_name.replace('_', ' ').title())
+    plt.ylabel('Second Order Coherence Score')
+    plt.title(f'{score_name.replace("_", " ").title()} vs Second Order Coherence Score')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(f'metric_plots/vs_second_order_coherence_score/{score_name}_vs_second_order_coherence_score.png')
+    plt.close()
